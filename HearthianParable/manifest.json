@@ -4,7 +4,7 @@
   "author": "Vambok",
   "name": "The Hearthian Parable",
   "uniqueName": "Vambok.HearthianParable",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "owmlVersion": "2.15.1",
   "dependencies": ["xen.NewHorizons", "xen-42.ModJam5"]
 }
