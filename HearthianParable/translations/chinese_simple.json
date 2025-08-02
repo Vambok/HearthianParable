@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "DialogueDictionary": {
+
+    },
+    "ShipLogDictionary": {
+      "Weird system": "奇怪的星系",
+      "Walking near a dead tree I felt like landing on that huge golf ball around the purple star. I didn't know tree could do telepathy and I still don't know if they can be trusted...": "走到枯树附近时，我突然想要登陆紫色恒星旁边的那颗大高尔夫球。没想到这树还会心灵感应，也不知道他值不值得信任……",
+      "I really hope this is getting somewhere eventually.": "希望继续推进下去能有点意思吧。",
+      "Turns out I saved the tree from whatever. Now we're best buddies!": "原来我从某种危险中救下了树。现在我们是铁哥们儿！",
+
+      "Ending 1a": "结局1a",
+      "Placeholder text (change before release!!!)": "占位文本（发布前修改！！！）",
+      "The dev finally left their commentary to work on a \"secret easter egg below the star\"? I wonder what could be there...": "作者终于结束解说去制作“恒星下面的神秘彩蛋”了。不知道那里有什么……",
+      "I found the dev on a tiny hidden planet, they were eaten alive by an anglerfish! The voices seemed as surprised as I was. I wonder if the dev commented their own demise...": "我在一颗隐藏起来的小行星上发现了作者，他被安康鱼吃掉了！那些声音和我一样感到震惊。不知道作者有没有解说自己的逝世……",
+      "Seems like the dev wanted to chill inside the game and got assaulted by a scary fish. Ok fine whatever.": "看起来是作者想要在游戏里放松一下，结果被一条恐怖的鱼袭击了。行吧无所谓了。",
+      
+      "Ending 1b": "结局1b",
+      "Dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?": "滚滚长江东逝水，浪花淘尽英雄。是非成败转头空，青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。滚滚长江东逝水，浪花淘尽英雄。是非成败转头空，青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。滚滚长江东逝水，浪花淘尽英雄。是非成败转头空，青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。",
+      "The anglerfish I met seems quite a known figure around here. These people are crazy!": "我见到的那条安康鱼好像是附近的熟面孔。这群人疯了吧！",
+      
+      "Ending 2a": "结局2a",
+      "Example!": "示例文本！",
+      "Ok so the dev didn't build their puzzles yet and they made the V key invert their planet's gravity. Now we need to go deeper.": "好吧所以作者还没造好解谜部分，并且用V键可以反转他星球上的重力。现在我们该继续深入了。",
+      "A little... insect? complained about the boring commentary, but since I deactivated it to preserve my sanity they went away without even explaining why they were being annoying. I should try to come back with commentary on (or without enabling it in the first place).": "一个小……虫子？抱怨解说太无聊了，但既然我为了维持神智已经把解说关掉了，它就走了，甚至没解释为什么出来打扰我。我应该在开启解说的时候回来（或者一开始就不要开启解说）。",
+      "Thank to the annoying little thing I can press the K key to fast forward this mod's boring commentary.": "拜烦人的小家伙所赐，我可以用K键快进这个mod的无聊解说。",
+      "I seem to have offended the dev by skipping their boring commentary. Good thing I don't care!": "我跳过了作者的无聊解说，好像因此冒犯到了他。还好我也不在乎！",
+      
+      "Ending 2b": "结局2b",
+      "It seems there is some kind of \"hole\" in the white dull planet?": "这个黯淡沉闷的白色星球上好像有个什么“洞”？",
+      "I found Nomai gravity bending floors covering the planet's hole. They may be the only decent things in there so why not walking on them.": "我在星球的洞边发现了挪麦人的重力扭曲地板。这估计是附近唯一像样的东西了，干脆在上面走走吧。",
+      "How is that cheating! That's just how this game works!": "这怎么能算作弊呢！这游戏就是这样玩的！",
+      
+      "Ending 3": "结局3",
+      "Could not find rumor text! Please complain to the mod author. Don't let them sleep until you get the rumor text you rightfully deserve!": "无法找到传闻文本！请向mod作者投诉。在得到你理所应得的传闻文本前别让他睡觉！",
+      "One of the weird voices I heard mentionned checking this mod's settings in the pause menu. I'm bored so I might as well.": "我听到几个奇怪的声音，其中一个提到查看这个mod在暂停菜单的设置页面。反正我也无聊，不如就去看看。",
+      "I deactivated the whole mod from the settings. Unfortunately it came back!": "我在设置页面关闭了整个mod。不幸的是它又重新出现了！"
+      
+    },
+    "UIDictionary":{
+      "Developper's commentary": "开发者解说",
+      "Difficulty": "难度",
+      "Speedrun timer": "速通计时器",
+      "Level of verbosity. Normal: no shiplog hints, Hard: no subtitles either, Insane: not even voices": "信息呈现方式。普通：没有飞船日志提示；困难：也没有字幕；极限：甚至没有声音",
+      "Easy: Shiplogs": "简单：飞船日志",
+      "Normal: Subtitles": "普通：字幕",
+      "Hard: Only audio": "困难：只有音频",
+      "Insane: Nothing": "极限：什么都没有",
+      "(restart the game to reset)": "（重置需重启游戏）",
+
+      "Out of remorse, Ernesto uploaded the mod to the database.": "Ernesto懊悔不已，于是将mod上传至数据库。",
+      "It's dangerous to go alone in the Outer Wilds!": "在Outer Wilds中独自出行非常危险！",
+      "Here you are, new ending. Happy?": "给你，新结局。满意了？"
+      
+    },
+    "OtherDictionary":{
+    
+    }
+}
