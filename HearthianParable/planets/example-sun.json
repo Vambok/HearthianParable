@@ -16,22 +16,94 @@
       "z": 5000
     }
   },
-  "Star": {
-    "stellarDeathType": "none",
-    "size": 300,
-    "solarLuminosity": 1,
-    "lightRadius": 2500,
-    "lightTint": {
-      "r": 210,
-      "g": 200,
-      "b": 255
+    "Star": {
+        "stellarDeathType": "none",
+        "size": 300,
+        "solarLuminosity": 1,
+        "lightRadius": 2500,
+        "lightTint": {
+            "r": 210,
+            "g": 200,
+            "b": 255
+        },
+        "tint": {
+            "r": 50,
+            "g": 0,
+            "b": 255
+        }
     },
-    "tint": {
-      "r": 50,
-      "g": 0,
-      "b": 255
-    }
-  },
+    "Props": {
+        "dialogue": [
+            {
+                "parentPath": "Sector/Ernesto",
+                "xmlFile": "planets/shiplog/Ernesto.xml",
+                "radius": 2,
+                "isRelativeToParent": true,
+                "position": { "x": 0, "y": 0, "z": 0 }
+            }
+        ],
+        "details": [
+            {
+                "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+                "position": {
+                    "x": 0,
+                    "y": 2000,
+                    "z": 0
+                },
+                "keepLoaded": true,
+                "rename": "Ernesto",
+                "scale": 0.015
+            },
+            {
+                "assetBundle": "Assets/vam-thp_bundle",
+                "path": "Assets/vam-thp_bundle/Shop_bag.prefab",
+                "parentPath": "Sector/Ernesto",
+                "position": {
+                    "x": -45,
+                    "y": -73,
+                    "z": -20
+                },
+                "rotation": {
+                    "x": 270,
+                    "y": 43,
+                    "z": 0
+                },
+                "isRelativeToParent": true,
+                "scale": 150,
+                "keepLoaded": true
+            },
+            {
+                "assetBundle": "Assets/vam-thp_bundle",
+                "path": "Assets/vam-thp_bundle/Shop_bag.prefab",
+                "parentPath": "Sector/Ernesto",
+                "position": {
+                    "x": 45,
+                    "y": -73,
+                    "z": -20
+                },
+                "rotation": {
+                    "x": 270,
+                    "y": 317,
+                    "z": 0
+                },
+                "isRelativeToParent": true,
+                "scale": 150,
+                "keepLoaded": true
+            }
+        ],
+        "signals": [
+		    {
+			    "audio": "DBAnglerfishLurking_LP",
+			    "detectionRadius": 25,
+			    "identificationRadius": 15,
+			    "name": "Another anglerfish?",
+			    "frequency": "Angler family",
+                "position": {"x": 0, "y": 0, "z": 0},
+                "parentPath": "Sector/Ernesto",
+                "isRelativeToParent": true
+		    }
+		]
+    },
   "ShipLog": {
     "xmlFile": "planets/shiplog/ShipLog.xml",
     "spriteFolder": "planets/shiplog/sprites"

@@ -2,6 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "UIDictionary": {
         "Out of remorse, Ernesto uploaded the mod to the database.": "Pris de remords, Ernesto soumit le mod pour sa publication.",
+        "Out of remorse, Ernestine uploaded the mod to the database.": "Prise de remords, Ernestine soumit le mod pour sa publication.",
         "It's dangerous to go alone in the Outer Wilds!": "C'est dangereux d'explorer seul'e Outer Wilds !",
         "Here you are, new ending. Happy?": "Tada, nouvelle fin. Voilà vous êtes content'e ?",
         "Developper's commentary": "Commentaires de développement",
@@ -38,5 +39,34 @@
         "How is that cheating! That's just how this game works!": "Comment ça je triche ! C'est comme ça que fonctionne tout le jeu !",
         "One of the weird voices I heard mentionned checking this mod's settings in the pause menu. I'm bored so I might as well.": "Une des voix bizarres que j'ai entendues a parlé d'aller voir les paramètres de ce mod, dans le menu de pause. Je m'ennuie à fond alors autant faire ça.",
         "I deactivated the whole mod from the settings. Unfortunately it came back!": "J'ai désactivé le mod entier dans les paramètres. Malheureusement il est revenu !"
+    },
+    "DialogueDictionary": {
+        "Hey there! I'm Ernesto, the magic talking anglerfish!": "Hey salut ! Je suis Ernesto, le cœlacanthe parlant magique !",
+        "The... what?": "Le... quoi ?",
+        "Oh hi Ernesto! Nice to see you!": "Oh coucou Ernesto ! C'est sympa de te voir !",
+        "Wait... I saw you down there on a hidden planet having a snac- I mean, eating someone.": "Attends une minute... je t'ai vu là bas sur une planète secrète en train de grignot- je veux dire, en train de manger quelqu'un'e.",
+        "Why did you do that to Vambok? Were you hungry?": "Pourquoi t'as fait ça à Vambok ? Est-c'que t'avais faim ?",
+        "Hello again! What's up?": "Rebonjour ! Quoi de neuf ?",
+        "Not much, this mod is lame. What are you up to?": "Pas grand chose, ce mod est nul. Et toi qu'est ce que tu fais ?",
+        "I saw you down there on a hidden planet having a snac- I mean, eating someone.": "Je t'ai vu là bas sur une planète secrète en train de grignot- je veux dire, en train de manger quelqu'un'e.",
+        "The Magic Talking Anglerfish! Never heard of me? What a shame.": "Le Cœlacanthe Parlant Magique ! Jamais entendu parler de moi ? Quel dommage.",
+        "Uh, ok I guess... What are these for?": "Euh, ouai ok... Et ça c'est pour faire quoi ?",
+        "I'm heading to the groceries store, hope I'll be back for supper.": "Je vais faire des courses, j'espère que je serai rentré pour le souper.",
+        "Pretty easy being a vegan anglerfish these days but you can't just eat any random stranger!": "C'est plutôt facile d'être un cœlacanthe vegan de nos jours mais je ne peux pas simplement manger n'importe quel inconnu !",
+        "What? But... I saw you eating this mod's dev right there! Below the star!": "Hein ? Mais... Je t'ai vu manger le/la dev de ce mod juste là bas ! Sous l'étoile !",
+        "Vegan? What about eating Vambok on the hidden planet? You're a liar!": "Et manger Vambok sur la planète secrète c'est vegan ça ? Menteur !",
+        "Oh, ok that makes sense!": "Oh, ok oui c'est logique !",
+        "What? That's not me I would never eat anybody!": "Quoi ? Ce n'est pas moi je ne mangerais jamais personne !",
+        "Oh bobbins! I know what probably happened: you met my evil sister Ernestine.": "Oh Miller ! Je sais ce qui a dû se passer: tu as rencontré ma soeur maléfique, Ernestine.",
+        "Well not ''evil'' but I mean, she's a regular anglerfish so you know, scary and all that stupid acting.": "Enfin pas ''maléfique'' mais je veux dire, c'est une cœlacanthe tout ce qu'il y a de plus classique tu vois ? Effrayante et tout le tralala.",
+        "No wonder why people have such a bad opinion about our kin!": "Pas étonnant que les gens aient une aussi mauvaise opinion de notre espèce !",
+        "I tried to talk to her, explaining why she should stop eating people and start being nice to them, but she wouldn't listen!": "J'ai essayé de lui parler, de lui expliquer qu'elle devrait arrêter de manger les gens et être sympa avec elleux, mais elle ne voulait rien entendre.",
+        "I'm sorry for your friend. At least they didn't suffer too much, Ernestine's teeth are way sharper than any razor blade.": "Je suis désolé pour ton ami'e. Au moins iel n'a pas trop souffert, les dents d'Ernestine sont bien plus tranchantes que n'importe quelle lame de rasoir.",
+        "Well they're not my friend, just a strange mod maker torturing me with what seems to be their worst fever dream.": "Oui enfin c'est pas mon ami'e, juste un'e créateurice de mods qui me torture avec ce qui semble être son pire délire.",
+        "Yeah, well I guess now at least this situation makes more sense.": "Ouai, bon au moins toute cette histoire est plus compréhensible maintenant.",
+        "In any case, I would never do that!": "Dans tous les cas je ne l'aurais jamais mangé !",
+        "Unless, well it depends how much you'd pay me of course.": "À moins que... enfin ça dépend de combien tu me paierais bien sûr.",
+        "Of course. Anyway, sorry for doubting you. I guess that kind of confusion happens quite a lot?": "Bien sûr. Enfin bref, désolé de t'avoir suspecté. Je suppose que ce genre de quiproquo arrive plutôt souvent ?",
+        "It sure does! Bye, have a good day!": "Absolument ! À la prochaine, bonne journée !"
     }
 }

@@ -160,6 +160,14 @@
 	    },{
 		"parentPath":"Sector/endVolumes",
 		"radius":10,
+		"rename":"ernestine",
+		"gameOver":{
+		    "text":"Out of remorse, Ernestine uploaded the mod to the database.",
+		    "creditsType":"kazoo"
+	        }
+	    },{
+		"parentPath":"Sector/endVolumes",
+		"radius":10,
 		"rename":"ernestoDev",
 		"deathType":"digestion",
 		"gameOver":{
