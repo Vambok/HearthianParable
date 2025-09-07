@@ -104,6 +104,16 @@
 		    }
 		]
     },
+    "Volumes": {
+        "zeroGravityVolumes": [
+            {
+                "parentPath": "Sector/Ernesto",
+                "radius": 20,
+                "isRelativeToParent": true,
+                "position": { "x": 0, "y": 0, "z": 0 }
+            }
+        ]
+  },
   "ShipLog": {
     "xmlFile": "planets/shiplog/ShipLog.xml",
     "spriteFolder": "planets/shiplog/sprites"
