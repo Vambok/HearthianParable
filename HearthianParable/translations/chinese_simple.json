@@ -1,7 +1,37 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "DialogueDictionary": {
-
+      "Hey there! I'm Ernesto, the magic talking anglerfish!": "嗨！我是Ernesto，会说话的魔法安康鱼！",
+      "The... what?": "呃……什么？",
+      "Oh hi Ernesto! Nice to see you!": "嗨Ernesto！很高兴见到你！",
+      "Wait... I saw you down there on a hidden planet having a snac- I mean, eating someone.": "等等……我刚刚看到你在下面一个隐藏的星球里吃零……我是说，吃某个人。",
+      "Why did you do that to Vambok? Were you hungry?": "你为什么要吃掉Vambok？你饿了吗？",
+      "Hello again! What's up?": "又见面了！怎么说？",
+      "Not much, this mod is lame. What are you up to?": "没什么，这个mod太无聊了。你在做什么？",
+      "I saw you down there on a hidden planet having a snac- I mean, eating someone.": "我刚刚看到你在下面一个隐藏的星球里吃零……我是说，吃某个人。",
+      "The Magic Talking Anglerfish! Never heard of me? What a shame.": "会说话的魔法安康鱼！没听说过我吗？那真是遗憾。",
+      "Uh, ok I guess... What are these for?": "呃，好吧……这些是干什么的？",
+      "I'm heading to the groceries store, hope I'll be back for supper.": "我正打算去超市一趟，希望晚饭前能到家。",
+      "Pretty easy being a vegan anglerfish these days but you can't just eat any random stranger!": "这年头做条素食主义安康鱼很容易，但不能随便什么人都吃！",
+      "What? But... I saw you eating this mod's dev right there! Below the star!": "什么？可是……我看到你在那里把mod作者吃掉了！在恒星下面！",
+      "Vegan? What about eating Vambok on the hidden planet? You're a liar!": "素食主义？那你怎么在隐藏星球上把Vambok吃掉了？你这个骗子！",
+      "Oh, ok that makes sense!": "哦，原来是这样！",
+      "What? That's not me I would never eat anybody!": "什么？不是我吃的，我不吃人！",
+      "Oh bobbins! I know what probably happened: you met my evil sister Ernestine.": "哦我的天！我知道大概怎么回事了：你见到了我的邪恶姐妹Ernestine。",
+      "Well not ''evil'' but I mean, she's a regular anglerfish so you know, scary and all that stupid acting.": "嗯也不是“邪恶”，她是条寻常的安康鱼，所以你懂的，会吓唬人之类的把戏。",
+      "No wonder why people have such a bad opinion about our kin!": "也难怪大家对我们种族的评价这么低！",
+      "I tried to talk to her, explaining why she should stop eating people and start being nice to them, but she wouldn't listen!": 
+      "我尝试过和她沟通，向她解释为什么不该继续吃人，应该对人好一些，但她一点都听不进去！",
+      "I'm sorry for your friend. At least they didn't suffer too much, Ernestine's teeth are way sharper than any razor blade.": 
+      "我为你朋友的遭遇感到抱歉。至少他没受太大的折磨，Ernestine的牙比任何刀片都锋利。",
+      "Well they're not my friend, just a strange mod maker torturing me with what seems to be their worst fever dream.": 
+      "他不是我朋友，只是一个奇怪的mod作者，在用他最糟糕的荒谬梦境折磨我。",
+      "Yeah, well I guess now at least this situation makes more sense.": "好吧，至少现在我明白是什么情况了。",
+      "In any case, I would never do that!": "无论如何，我绝对不会做那样的事！",
+      "...":"……",
+      "Unless, well it depends how much you'd pay me of course.": "除非……当然这取决于你愿意付我多少钱。",
+      "Of course. Anyway, sorry for doubting you. I guess that kind of confusion happens quite a lot?": "当然。总之，不好意思我怀疑了你。我猜经常有人把你俩搞混吧？",
+      "It sure does! Bye, have a good day!": "确实！再见，祝你一天愉快！"
     },
     "ShipLogDictionary": {
       "Weird system": "奇怪的星系",
@@ -47,11 +77,16 @@
       "Hard: Only audio": "困难：只有音频",
       "Insane: Nothing": "极限：什么都没有",
       "(restart the game to reset)": "（重置需重启游戏）",
+      "Anglerfish":"安康鱼",
+      "Angler family":"安康鱼家族",
+      "Another anglerfish?":"又一条安康鱼？",
 
       "Out of remorse, Ernesto uploaded the mod to the database.": "Ernesto懊悔不已，于是将mod上传至数据库。",
+      "Out of remorse, Ernestine uploaded the mod to the database.": "Ernestine懊悔不已，于是将mod上传至数据库。",
       "It's dangerous to go alone in the Outer Wilds!": "在Outer Wilds中独自出行非常危险！",
-      "Here you are, new ending. Happy?": "给你，新结局。满意了？"
-      
+      "Here you are, new ending. Happy?": "给你，新结局。满意了？",
+
+
     },
     "OtherDictionary":{
     
