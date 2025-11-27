@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 325256259
+CRC: 3792455282
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 48d85d0fdb284ece569bce09d4cebe33
+    Hash: 8a0e47c11d7bbe957fe0480a3b20c321
   TypeTreeHash:
     serializedVersion: 2
     Hash: e4b6bc0ab5789c8ff79595300a2e7079
@@ -39,4 +39,6 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/vam-thp_bundle/layer.fbx
 - Assets/vam-thp_bundle/Layer.prefab
+- Assets/vam-thp_bundle/shopping_bag.fbx
+- Assets/vam-thp_bundle/Shop_bag.prefab
 Dependencies: []
