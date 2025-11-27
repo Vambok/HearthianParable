@@ -635,6 +635,7 @@ public class HearthianParable : ModBehaviour {
         shipLogManager.RevealFact(factUnlocked);
         if((gameState & 31) > 30) shipLogManager.RevealFact("VAM-THP_ROOT_FACT");
         SaveQuit();
+        if(type == "ernesto" && PlayerData.GetPersistentCondition("VAMBOK_THP_KNOWS_TRUTH")) type = "ernestine";
         endVolumes[type].position = player.transform.position;
         endVolumes[type].parent = player.transform;
         endVolumes[type].GetComponent<SphereShape>().enabled = true;
@@ -675,6 +676,7 @@ public class HearthianParable : ModBehaviour {
                     if((audioSource.isPlaying ? audioSource.time : devSource.time) > dialoguesTimings[subtitlesState - 1]) {
                         if(difficulty < 2) UpdateSubtitle(subtitlesState);
                         subtitlesState++;
+                        if(subtitlesState > 155) subtitlesState = 0;
                     }
                 } else if((localization[language]["dialogues"][subtitlesState - 1] == "") || ((Time.realtimeSinceStartup < silenceTimer + 0.4f) && (Time.realtimeSinceStartup > silenceTimer + 0.2f))) {
                     UpdateSubtitle(0);

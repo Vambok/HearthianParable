@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Example Dialogue -->
+<!-- All files must have `DialogueTree` as the root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but provides improved error checking if your editor supports it -->
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Ernesto</NameField>
+	
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey there! I'm Ernesto, the magic talking anglerfish!</Page>
+		</Dialogue>
+		<SetCondition>VAMBOK_THP_KNOWS_ERNESTO</SetCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The... what?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh hi Ernesto! Nice to see you!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END2_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Wait... I saw you down there on a hidden planet having a snac- I mean, eating someone.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END1_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Why did you do that to Vambok? Were you hungry?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>StartKnown</Name>
+		<EntryCondition>VAMBOK_THP_KNOWS_ERNESTO</EntryCondition>
+		<Dialogue>
+			<Page>Hello again! What's up?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Not much, this mod is lame. What are you up to?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END2_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>I saw you down there on a hidden planet having a snac- I mean, eating someone.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END1_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Why did you do that to Vambok? Were you hungry?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>The Magic Talking Anglerfish! Never heard of me? What a shame.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh, ok I guess... What are these for?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END2_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Wait... I saw you down there on a hidden planet having a snac- I mean, eating someone.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END1_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Why did you do that to Vambok? Were you hungry?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>I'm heading to the groceries store, hope I'll be back for supper.</Page>
+			<Page>Pretty easy being a vegan anglerfish these days but you can't just eat any random stranger!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END2_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>What? But... I saw you eating this mod's dev right there! Below the star!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>VAM-THP_END1_FACT</RequiredLogCondition>
+				<CancelledPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</CancelledPersistentCondition>
+				<Text>Vegan? What about eating Vambok on the hidden planet? You're a liar!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, ok that makes sense!</Text>
+				<DialogueTarget>End</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>What? That's not me I would never eat anybody!</Page>
+			<Page>Oh bobbins! I know what probably happened: you met my evil sister Ernestine.</Page>
+			<Page>Well not ''evil'' but I mean, she's a regular anglerfish so you know, scary and all that stupid acting.</Page>
+			<Page>No wonder why people have such a bad opinion about our kin!</Page>
+			<Page>I tried to talk to her, explaining why she should stop eating people and start being nice to them, but she wouldn't listen!</Page>
+			<Page>I'm sorry for your friend. At least they didn't suffer too much, Ernestine's teeth are way sharper than any razor blade.</Page>
+		</Dialogue>
+		<SetPersistentCondition>VAMBOK_THP_KNOWS_TRUTH</SetPersistentCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Well they're not my friend, just a strange mod maker torturing me with what seems to be their worst fever dream.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Yeah, well I guess now at least this situation makes more sense.</Text>
+				<DialogueTarget>End</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>In any case, I would never do that!</Page>
+			<Page>...</Page>
+			<Page>Unless, well it depends how much you'd pay me of course.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Of course. Anyway, sorry for doubting you. I guess that kind of confusion happens quite a lot?</Text>
+				<DialogueTarget>End</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>End</Name>
+		<Dialogue>
+			<Page>It sure does! Bye, have a good day!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
